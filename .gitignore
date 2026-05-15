@@ -1,0 +1,26 @@
+# Ansible
+*.retry
+*.retry.*
+
+# Local and editor files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Secrets and local overrides
+*.vault
+*.vault.yml
+*.vault.yaml
+*.key
+*.pem
+*.p12
+*.pfx
+.env
+.env.*
+
+# Logs and caches
+*.log
+.cache/
